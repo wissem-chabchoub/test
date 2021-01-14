@@ -1,0 +1,115 @@
+
+h1 {text-align: center;
+    margin-bottom: 5%;
+    margin-top:5%;}
+    div{
+      height: 100%;
+       
+        border:2px solid black;
+    background-color: rgba(100, 98, 98, 0.541);
+    
+    }
+    .c{border: 10px solid gray;
+        text-align: right;
+        background-color: gray;
+    bottom: 0px;
+    
+    height:10px
+    ;
+    left: 0px;
+    right:0vmax;
+    position: absolute;}
+    .titre1{border:2px solid black;
+        background-color:pink;
+        height: 30;
+        width: 100px;
+        font-weight: bold;
+        margin:-2px;
+        
+    margin-right: -2px;
+        float: right;
+       text-align: center;
+       font-size: 120%;
+    }
+    .titre2{
+        color:white ;
+        border:2px solid black;
+        background-color:red;
+        height: 30;
+        width: 100px;
+        font-weight:bold;
+        margin:-2px;
+    margin-right: -2px;
+        float: right;
+       text-align: center;
+       font-size:120%;
+    }
+    .titre3{border:2px solid black;
+        background-color: yellow;
+        height: 30;
+        width: 100px;
+        font-weight: bold;
+        margin:-2px;
+    margin-right: -2px;
+        float: right;
+        margin-top: 0%;
+       text-align: center;
+       font-size: 120%;}
+       div>p:nth-child(2) {margin-top: 5%;
+        margin-left: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;}
+       
+        @media (min-width:992px) {
+            div{height: 140px;}
+            .elephant{margin-left:2%;
+            margin-right: 3%;
+            
+        }
+        .elephant{width: 30%;
+        }
+        .lion{width: 30%;}
+        .dog{width: 30%;
+       ;}
+            div {float: left;
+            }
+           
+            }
+            @media(max-width:766px)
+{.elephant {margin-top: 5%;
+margin-bottom: 5%;}
+.elephant{width: 90%;
+height: 20%;
+}
+.lion{width: 90%;
+height: 20%;}
+.dog{width: 90%;
+    height:20%;}
+.c{height: 3%;}
+}
+@media (min-width:766px) and (max-width:992px) 
+ {
+    .dog{
+        width: 48%;
+        height: 130px;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        bottom: 0%;
+          }
+          .elephant{
+              align-items: flex-start;
+              height: 130px;
+              
+            width:48%;
+            float: right;
+            margin-top: -133px;
+        bottom: 0%;}
+        .lion{width: 100%
+            ;
+            top: 0%;
+            margin-top: 2%;
+            
+        }
+            }
+
+
